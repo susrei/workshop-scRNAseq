@@ -1,7 +1,7 @@
 project:
   type: website
   # output directory used on gh-pages branch. format: YYMM
-  output-dir: "docs"
+  output-dir: "_site"
   render: 
     - "!compiled/"
     - "!LICENSE"
