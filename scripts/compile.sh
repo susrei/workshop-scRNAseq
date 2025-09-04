@@ -18,29 +18,30 @@ docker_site="ghcr.io/nbisweden/workshop-scrnaseq:2024-site-r4.3.0"
 # set output directory for compiled output
 output_dir="compiled"
 # set input directories with qmd files to compile
-input_dirs=("labs/seurat" "labs/bioc" "labs/scanpy")
+input_dirs=("docs/labs/seurat" "docs/labs/bioc" "docs/labs/scanpy")
 
 # fail on error
 set -e
 
 # check if in the root of the repo
-if [ ! -f "_quarto.yml" ]; then
-    echo "Error: Are you in the root of the repo? _quarto.yml is missing."
-    exit 1
-fi
+# if [ ! -f "_quarto.yml" ]; then
+#     echo "Error: Are you in the root of the repo? _quarto.yml is missing."
+#     exit 1
+# fi
 
 # check if these directories exist
 error=false
 for dir in "${input_dirs[@]}"; do
     if [ ! -d "$dir" ]; then
         echo "Error: Directory '$dir' does not exist."
-        error=true
+		exit 1
+        # error=true
     fi
 done
 
-if [ "$error" = true ]; then
-    exit 1  # Exit with an error code
-fi
+# if [ "$error" = true ]; then
+#     exit 1  # Exit with an error code
+# fi
 
 # if output directory exists, remove it
 if [ -d "$output_dir" ]; then
@@ -50,11 +51,11 @@ fi
 
 # create compiled versions of qmd to using profile "compiled"
 echo "Compiling seurat labs ..."
-docker run --rm --platform=linux/amd64 -u 1000:1000 -v ${PWD}:/work $docker_site quarto render --profile compile /work/labs/seurat/*.qmd --to markdown-header_attributes --metadata engine:markdown --log-level warning,error
+docker run --rm --platform=linux/amd64 -u 1000:1000 -v ${PWD}:/work $docker_site quarto render --profile compile /work/docs/labs/seurat/*.qmd --to markdown-header_attributes --metadata engine:markdown --log-level info,warning,error
 echo "Compiling bioc labs ..."
-docker run --rm --platform=linux/amd64 -u 1000:1000 -v ${PWD}:/work $docker_site quarto render --profile compile /work/labs/bioc/*.qmd --to markdown-header_attributes --metadata engine:markdown --log-level warning,error
+docker run --rm --platform=linux/amd64 -u 1000:1000 -v ${PWD}:/work $docker_site quarto render --profile compile /work/docs/labs/bioc/*.qmd --to markdown-header_attributes --metadata engine:markdown --log-level warning,error
 echo "Compiling scanpy labs ..."
-docker run --rm --platform=linux/amd64 -u 1000:1000 -v ${PWD}:/work $docker_site quarto render --profile compile /work/labs/scanpy/*.qmd --to markdown-header_attributes --metadata engine:markdown --log-level warning,error
+docker run --rm --platform=linux/amd64 -u 1000:1000 -v ${PWD}:/work $docker_site quarto render --profile compile /work/docs/labs/scanpy/*.qmd --to markdown-header_attributes --metadata engine:markdown --log-level warning,error
 
 # Read an md/qmd, remove unnecessary lines from yaml, and write to the original file
 echo "Slimming yaml across all .md files ..."
@@ -73,9 +74,9 @@ slim_yaml() {
                 continue_capture=0;
             }
         }
-    ' "$1" > "tmp"
+    ' "$1" > "temp.md"
 
-    mv "tmp" "$1"
+    mv "temp.md" "$1"
 }
 
 find "${output_dir}" -type f -name "*.md" -print0 | while IFS= read -r -d '' file; do
