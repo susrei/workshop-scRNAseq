@@ -141,7 +141,7 @@ fi
 # build compiled files
 if [[ "$@" =~ 'compile' ]]  ||  [[ "$@" =~ 'all' ]]
 then
-    bash ./scripts/compile.sh
+    bash ./scripts/compile.sh "all"
     echo "All labs compiled successfully."
 fi    
 
