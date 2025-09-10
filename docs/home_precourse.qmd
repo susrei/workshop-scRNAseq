@@ -14,8 +14,8 @@ format: html
 #| include: false
 library(yaml)
 library(here)
-upc <- yaml::read_yaml(here("_quarto.yml"))$uppmax_compute
-ups <- yaml::read_yaml(here("_quarto.yml"))$uppmax_storage
+upc <- yaml::read_yaml(here("docs/_quarto.yml"))$uppmax_compute
+ups <- yaml::read_yaml(here("docs/_quarto.yml"))$uppmax_storage
 ```
 
 ## {{< fa book >}} Coding

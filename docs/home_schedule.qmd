@@ -20,8 +20,8 @@ library(yaml)
 library(readxl)
 library(here)
 
-schedule_message <- yaml::read_yaml(here("_quarto.yml"))$schedule_message
-color_primary <- yaml::read_yaml(here("_quarto.yml"))$colors$primary
+schedule_message <- yaml::read_yaml(here("docs/_quarto.yml"))$schedule_message
+color_primary <- yaml::read_yaml(here("docs/_quarto.yml"))$colors$primary
 
 asst <- yaml::read_yaml("_quarto.yml")$assistant
 

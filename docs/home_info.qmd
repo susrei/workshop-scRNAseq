@@ -17,7 +17,7 @@ library(leaflet)
 library(readxl)
 
 # set location in _quarto.yml
-loc <- sapply(unlist(strsplit(yaml::read_yaml(here("_quarto.yml"))$location,";|,")),trimws)
+loc <- sapply(unlist(strsplit(yaml::read_yaml(here("docs/_quarto.yml"))$location,";|,")),trimws)
 dfr <- readxl::read_xlsx("info.xlsx")
 ```
 
