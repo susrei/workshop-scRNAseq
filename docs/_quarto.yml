@@ -31,8 +31,14 @@ website:
         href: "home_syllabus.html"
       - text: "Info"
         href: "home_info.html"
+      - text: "Archive"
+        menu:
+          - text: "2024"
+            href: "archive/2024/index.html"
+          - text: "2023"
+            href: "archive/2023/index.html"
       - icon: "github"
-        href: "https://github.com/NBISweden/workshop-scRNAseq/"
+        href: "https://github.com/susrei/workshop-scRNAseq/"
   page-footer:
     border: false
     left: "{{< meta current_year >}} [NBIS](https://nbis.se) | [GPL-3 License](https://choosealicense.com/licenses/gpl-3.0/)"
