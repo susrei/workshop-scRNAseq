@@ -2,62 +2,130 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://susrei.github.io/workshop-scrnaseq/lectures/gsa/index.html</loc>
-    <lastmod>2025-09-15T20:24:56.831Z</lastmod>
+    <lastmod>2025-10-20T19:11:58.997Z</lastmod>
   </url>
   <url>
     <loc>https://susrei.github.io/workshop-scrnaseq/index.html</loc>
-    <lastmod>2025-09-17T20:14:24.928Z</lastmod>
+    <lastmod>2025-10-20T19:13:07.105Z</lastmod>
   </url>
   <url>
     <loc>https://susrei.github.io/workshop-scrnaseq/home_contents.html</loc>
-    <lastmod>2025-09-15T20:25:10.914Z</lastmod>
+    <lastmod>2025-10-20T19:12:47.338Z</lastmod>
   </url>
   <url>
     <loc>https://susrei.github.io/workshop-scrnaseq/home_info.html</loc>
-    <lastmod>2025-09-15T20:25:15.347Z</lastmod>
+    <lastmod>2025-10-20T19:12:51.501Z</lastmod>
   </url>
   <url>
     <loc>https://susrei.github.io/workshop-scrnaseq/home_precourse.html</loc>
-    <lastmod>2025-09-15T20:25:19.862Z</lastmod>
+    <lastmod>2025-10-20T19:12:55.490Z</lastmod>
   </url>
   <url>
     <loc>https://susrei.github.io/workshop-scrnaseq/home_schedule.html</loc>
-    <lastmod>2025-09-15T20:25:25.189Z</lastmod>
+    <lastmod>2025-10-20T19:13:00.254Z</lastmod>
   </url>
   <url>
     <loc>https://susrei.github.io/workshop-scrnaseq/home_syllabus.html</loc>
-    <lastmod>2025-09-15T20:25:29.259Z</lastmod>
+    <lastmod>2025-10-20T19:13:03.816Z</lastmod>
   </url>
   <url>
     <loc>https://susrei.github.io/workshop-scrnaseq/other/uppmax.html</loc>
-    <lastmod>2025-09-15T20:25:33.792Z</lastmod>
+    <lastmod>2025-10-20T19:12:40.702Z</lastmod>
   </url>
   <url>
     <loc>https://susrei.github.io/workshop-scrnaseq/other/scilifelab-serve.html</loc>
-    <lastmod>2025-09-15T20:25:37.929Z</lastmod>
+    <lastmod>2025-10-20T19:12:36.520Z</lastmod>
   </url>
   <url>
     <loc>https://susrei.github.io/workshop-scrnaseq/other/docker.html</loc>
-    <lastmod>2025-09-15T20:25:42.670Z</lastmod>
+    <lastmod>2025-10-20T19:12:28.626Z</lastmod>
   </url>
   <url>
     <loc>https://susrei.github.io/workshop-scrnaseq/other/containers.html</loc>
-    <lastmod>2025-09-15T20:25:47.133Z</lastmod>
+    <lastmod>2025-10-20T19:12:20.814Z</lastmod>
   </url>
   <url>
     <loc>https://susrei.github.io/workshop-scrnaseq/other/containers-spatial.html</loc>
-    <lastmod>2025-09-15T20:25:51.453Z</lastmod>
+    <lastmod>2025-10-20T19:12:16.796Z</lastmod>
   </url>
   <url>
     <loc>https://susrei.github.io/workshop-scrnaseq/other/faq.html</loc>
-    <lastmod>2025-09-15T20:25:56.016Z</lastmod>
+    <lastmod>2025-10-20T19:12:32.700Z</lastmod>
   </url>
   <url>
     <loc>https://susrei.github.io/workshop-scrnaseq/other/data.html</loc>
-    <lastmod>2025-09-15T20:26:00.214Z</lastmod>
+    <lastmod>2025-10-20T19:12:24.670Z</lastmod>
   </url>
   <url>
     <loc>https://susrei.github.io/workshop-scrnaseq/labs/index.html</loc>
-    <lastmod>2025-09-17T20:13:36.373Z</lastmod>
+    <lastmod>2025-10-20T19:32:31.540Z</lastmod>
+  </url>
+  <url>
+    <loc>https://susrei.github.io/workshop-scrnaseq/labs/seurat/seurat_01_qc.html</loc>
+    <lastmod>2025-10-20T19:16:20.113Z</lastmod>
+  </url>
+  <url>
+    <loc>https://susrei.github.io/workshop-scrnaseq/labs/scanpy/scanpy_01_qc.html</loc>
+    <lastmod>2025-10-20T19:16:26.653Z</lastmod>
+  </url>
+  <url>
+    <loc>https://susrei.github.io/workshop-scrnaseq/labs/bioc/bioc_01_qc.html</loc>
+    <lastmod>2025-10-20T19:16:58.177Z</lastmod>
+  </url>
+  <url>
+    <loc>https://susrei.github.io/workshop-scrnaseq/labs/scanpy/scanpy_02_dimred.html</loc>
+    <lastmod>2025-10-20T19:18:09.718Z</lastmod>
+  </url>
+  <url>
+    <loc>https://susrei.github.io/workshop-scrnaseq/labs/seurat/seurat_02_dimred.html</loc>
+    <lastmod>2025-10-20T19:18:25.668Z</lastmod>
+  </url>
+  <url>
+    <loc>https://susrei.github.io/workshop-scrnaseq/labs/bioc/bioc_02_dimred.html</loc>
+    <lastmod>2025-10-20T19:18:49.110Z</lastmod>
+  </url>
+  <url>
+    <loc>https://susrei.github.io/workshop-scrnaseq/labs/bioc/bioc_03_integration.html</loc>
+    <lastmod>2025-10-20T19:20:47.314Z</lastmod>
+  </url>
+  <url>
+    <loc>https://susrei.github.io/workshop-scrnaseq/labs/bioc/bioc_04_clustering.html</loc>
+    <lastmod>2025-10-20T19:23:01.551Z</lastmod>
+  </url>
+  <url>
+    <loc>https://susrei.github.io/workshop-scrnaseq/labs/seurat/seurat_03_integration.html</loc>
+    <lastmod>2025-10-20T19:23:22.503Z</lastmod>
+  </url>
+  <url>
+    <loc>https://susrei.github.io/workshop-scrnaseq/labs/scanpy/scanpy_03_integration.html</loc>
+    <lastmod>2025-10-20T19:24:01.056Z</lastmod>
+  </url>
+  <url>
+    <loc>https://susrei.github.io/workshop-scrnaseq/labs/bioc/bioc_06_celltyping.html</loc>
+    <lastmod>2025-10-20T19:25:13.190Z</lastmod>
+  </url>
+  <url>
+    <loc>https://susrei.github.io/workshop-scrnaseq/labs/scanpy/scanpy_04_clustering.html</loc>
+    <lastmod>2025-10-20T19:25:18.330Z</lastmod>
+  </url>
+  <url>
+    <loc>https://susrei.github.io/workshop-scrnaseq/labs/scanpy/scanpy_06_celltyping.html</loc>
+    <lastmod>2025-10-20T19:26:30.755Z</lastmod>
+  </url>
+  <url>
+    <loc>https://susrei.github.io/workshop-scrnaseq/labs/scanpy/scanpy_07_trajectory.html</loc>
+    <lastmod>2025-10-20T19:27:30.512Z</lastmod>
+  </url>
+  <url>
+    <loc>https://susrei.github.io/workshop-scrnaseq/labs/seurat/seurat_04_clustering.html</loc>
+    <lastmod>2025-10-20T19:28:02.341Z</lastmod>
+  </url>
+  <url>
+    <loc>https://susrei.github.io/workshop-scrnaseq/labs/seurat/seurat_06_celltyping.html</loc>
+    <lastmod>2025-10-20T19:31:48.184Z</lastmod>
+  </url>
+  <url>
+    <loc>https://susrei.github.io/workshop-scrnaseq/labs/seurat/seurat_07_trajectory.html</loc>
+    <lastmod>2025-10-20T19:32:26.067Z</lastmod>
   </url>
 </urlset>
