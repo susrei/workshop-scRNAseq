@@ -1,1 +1,1 @@
-Sitemap: https://susrei.github.io/workshop-scrnaseq/sitemap.xml
+Sitemap: https://susrei.github.io/workshop-scRNAseq/sitemap.xml
